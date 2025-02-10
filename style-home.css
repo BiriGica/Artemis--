@@ -1,0 +1,178 @@
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/*header*/
+header{
+    /*background: ;*/
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    /*color: ;*/
+    border-radius: 10px;
+    position: relative;
+}
+
+nav a:hover {
+    /*color: ;*/
+    margin: 0, 20;
+
+}
+
+/*cabeçalho!*/
+#cabecalho {
+   
+    font-family: "Barriecito", serif;
+    color:#4c6d74;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-size: 50px;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    /*color:;*/
+}
+
+h1 {
+    text-decoration: none;
+    padding: 25px;
+}
+
+/*menu*/
+.menu a{
+    /*background-color: ;
+    color: ;*/
+    padding: 5px 12px;
+}
+
+/*.menu a:hover{
+    /background-color: ;
+    color: ;
+}*/
+
+/*main container*/
+.main-container{
+    display:flex;
+    /*background-color:#dbc7ac;*/
+    gap: 20px;
+    max-width: 500px;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+.main-container h2 {
+    /*color: ;*/
+    padding:5px;
+    font-weight: 450;
+}
+
+/*.main-container p{
+    color: ;
+}*/
+
+/*main-block*/
+.main-block{
+    /*background-color:#dbc7ac;*/
+    /*border-radius: 10px;*/
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    justify-content: center;
+    /*box-shadow:0 4px 6px;*/
+    align-items: center;
+    padding: 20px;
+ }
+
+.main-block a{
+    /*color:#4c6d74;
+    background-color:antiquewhite;
+    border-radius: 15px;*/
+    padding: 5px 12px;
+    max-width: 150px;
+    transition: all 0.5s;
+}
+
+/*.main-block a:hover{
+    color:antiquewhite;
+    background-color:#daa432;
+}*/
+
+/*body*/
+body{
+    /*font-family: "", serif; 
+    color: ;
+    background-color: ;*/
+    font-weight: 400;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    /*color: ;*/
+    border-radius: 10px;
+    position: relative;
+}
+
+nav a:hover {
+    /*color: ;*/
+    margin: 0, 20;
+
+}
+
+/*main*/
+main {
+    padding: 20px;
+    text-align:center
+}
+
+/*footer*/
+footer{
+    text-align: center;
+}
+
+/*footer a{
+    color: ;
+}*/
+
+/*footer a:hover{
+    color: ;
+}*/
+
+/*"Volte ao topo*/
+#topo{
+    padding-top: 20px;
+}
+#topo a{
+    text-decoration: none;
+    /*color: ;*/
+}
+/*#topo a:hover{
+    color: ;
+}*/
